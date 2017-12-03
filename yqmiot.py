@@ -373,7 +373,7 @@ if __name__ == "__main__":
         usage()
         sys.exit(0)
 
-    client = MyClient(("yqmiot.com", 2883), accountid, nodeid)
+    client = MyClient(("yqmiot.com", 11883), accountid, nodeid)
     client.start()
     while True:
         time.sleep(3)
